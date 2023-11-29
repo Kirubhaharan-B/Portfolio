@@ -1,0 +1,114 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #333;
+    background-image: url('bg1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the background image to cover the entire background */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #f00; /* Change color on hover */
+}
+
+/* Main styles */
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.interest {
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.interest img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.interest h2 {
+    font-size: 23px;
+    margin-bottom: 10px;
+}
+
+.interest p {
+    font-size: 19px;
+    line-height: 1.5;
+}
+
+/* Additional Styles */
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.images-container img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+

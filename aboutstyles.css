@@ -1,0 +1,135 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #e2c5c5;
+    color: #333 ;
+    background-image: url('bg1.jpg'); /* Replace with your image path */
+    background-size: cover; /* Adjusts the background image to cover the entire background */
+    background-position: center; /* Centers the background image */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li a:hover {
+    color: #f00; /* Change color on hover */
+}
+
+/* Main styles */
+.about-page {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 40px 0;
+    flex-wrap: wrap; /* Allow elements to wrap */
+}
+
+.about-content {
+    width: 60%;
+    max-width: 600px; /* Limit width for better readability */
+    margin-right: 20px; /* Adjust spacing */
+    order: 1; /* Change order of content on mobile */
+    
+}
+
+.about-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    width: fit-content;
+    background-color: #f8f8f8;
+}
+
+.about-content p {
+    font-size: 19px;
+    line-height: 1.5;
+    background-color:#f8f8f8;
+}
+
+.about-image {
+    width: 40%;
+    max-width: 400px; /* Limit width for image */
+    order: 2; /* Change order of content on mobile */
+    text-align: center; /* Center the image on smaller screens */
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.quote {
+    margin-top: 20px; /* Add space between image and quote */
+    font-style: italic;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 24px;
+    margin-top: 40px;
+    background-color: #f8f8f8;
+    width: fit-content;
+}
+
+.skills-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap */
+}
+
+.skills-list li {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+
+/* Footer styles */
+footer {
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
